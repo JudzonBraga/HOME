@@ -1,4 +1,4 @@
-// ========== MENÚ HAMBURGUESA ==========
+        // ========== MENÚ HAMBURGUESA ==========
         const menuToggle = document.getElementById('menuToggle');
         const navLinksMobile = document.getElementById('navLinks');
         const menuOverlay = document.getElementById('menuOverlay');
@@ -165,7 +165,7 @@
             // Carrusel portafolio
             const productsData = [
                 { img: "https://www.sportlife.es/uploads/s1/12/38/03/84/los-6-ejercicios-funcionales-para-mejorar-en-tu-deporte.jpeg", name: "Elite Fitness", category: "Deporte", url: "https://judzonbraga.github.io/Web-personal-trainer/" },
-                { img: "https://png.pngtree.com/thumb_back/fh260/background/20250415/pngtree-businessmen-shaking-hands-in-office-image_17197770.jpg", name: "CV Online", category: "Negocios", url: "https://judzonbraga.github.io/Empleos-online-limaperu/" },
+                { img: "https://png.pngtree.com/thumb_back/fh260/background/20250415/pngtree-businessmen-shaking-hands-in-office-image_17197770.jpg", name: "Work Online", category: "Negocios", url: "https://judzonbraga.github.io/Web-para-CV-online/" },
                 { img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&auto=format", name: "Inmobiliarias", category: "Inmobiliario", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20INMOBILIARIAS" },
                 { img: "https://lh3.googleusercontent.com/pw/AP1GczOsTgdgpX_IuXQ7aLO3tO9ds3IHicx-u9bqTLPFpR3YW8SerxGOpX_ls-Lt102KwV7Nv1_UJlZ-2Jf8vnPyH8bsiFujvbciKDntv1EU7Zy7mr6LUa9P-hM8xw1Q_B9okNtkx0w1KnXVRhTQ0S2rFdAU=w908-h908-s-no-gm?authuser=0", name: "Dulce Fantasia Bakery", category: "Pastelería Artística", url: "https://dulcefantasiaoficial.github.io/home/" },
                 { img: "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600&auto=format", name: "Construcción", category: "Construcción", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20CONSTRUCCIÓN" },
@@ -382,3 +382,4 @@
                 });
             });
         })();
+    
