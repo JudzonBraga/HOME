@@ -1,4 +1,4 @@
-/* ========== ESTILOS BASE ========== */
+        /* ========== ESTILOS BASE ========== */
         * {
             margin: 0;
             padding: 0;
@@ -779,3 +779,4 @@
             .servicio-card-horizontal.real-card { width: calc(100% - 24px) !important; }
             .servicio-icon { font-size: 1.4rem !important; padding: 1rem 0.9rem !important; }
         }
+    
