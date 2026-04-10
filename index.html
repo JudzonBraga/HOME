@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>IUXON.COM - Soluciones Tecnológicas para Emprendedores</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="no-scroll">
+    <div class="intro-container" id="introContainer">
+        <img id="introImage" class="intro-image"
+            src="https://lh3.googleusercontent.com/pw/AP1GczMGhPI4_gcU-xxfzAkaemgVDD85xCCC2STyDNvtogOuetI9X4vCayYNYPj3aJnSehDm9xeECXuzRDkh79rVTZwxfGiVBGExdXRV9yqGKVcxfL1R5nK-xcX41AEgnJ8xIFNplneRyPv1dd8_DHe0xT4v=w1521-h1014-s-no-gm?authuser=0"
+            alt="Intro">
+    </div>
+    <canvas id="molecules-bg" class="canvas-hidden"></canvas>
+    <div class="main-content" id="mainContent">
+        <header class="header">
+            <nav class="nav-container">
+                <div class="logo">IUXON.COM</div>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a class="nav-a" href="#inicio">Inicio</a>
+                    <a class="nav-a" href="#portafolio">Portafolio</a>
+                    <a class="nav-a" href="#servicios">Servicios</a>
+                    <a class="nav-a" href="#planes">Planes</a>
+                    <a class="nav-a" href="#testimonios">Testimonios</a>
+                    <a class="nav-a" href="#tienda">Tienda</a>
+                    <a href="https://wa.me/51999999999" class="whatsapp-btn">📱 Escríbenos</a>
+                </div>
+            </nav>
+        </header>
+        <div class="menu-overlay" id="menuOverlay"></div>
+
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="hero-text animate-on-scroll fade-right">
+                    <h1>Crea la web que tu <span class="highlight">emprendimiento</span> merece</h1>
+                    <p>Diseñamos páginas web profesionales para emprendedores que quieren destacar y vender más.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item"><div class="stat-number">50+</div><div class="stat-label">Proyectos exitosos</div></div>
+                        <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">Clientes satisfechos</div></div>
+                        <div class="stat-item"><div class="stat-number">24/7</div><div class="stat-label">Soporte</div></div>
+                    </div>
+                    <a href="#contacto" class="btn-primary">Inicia tu proyecto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio" class="portfolio-section">
+            <div class="portfolio-header animate-on-scroll fade-right">
+                <h2>Marcas que confían en nosotros</h2>
+                <p>Empresas que ya tienen su página web profesional</p>
+            </div>
+            <div class="showcase-section animate-on-scroll fade-up">
+                <div class="loading__container" id="carouselContainer">
+                    <div class="carousel-track" id="carouselTrack"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios-section">
+            <div class="servicios-header animate-on-scroll fade-right">
+                <h2>Nuestros Servicios</h2>
+                <p>Soluciones tecnológicas integrales para tu negocio</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">✨ Usa las flechas para navegar entre servicios ✨</p>
+            </div>
+            <div class="slider-container animate-on-scroll fade-left" id="sliderContainer">
+                <div class="slider-track" id="sliderTrack"></div>
+            </div>
+            <div class="step-navigation animate-on-scroll fade-up">
+                <button class="step-btn" id="stepPrevBtn">◀</button>
+                <div class="step-indicator">
+                    <span class="current-step" id="currentStepDisplay">1</span>
+                    <span>/</span>
+                    <span id="totalStepsDisplay">6</span>
+                </div>
+                <button class="step-btn" id="stepNextBtn">▶</button>
+            </div>
+        </section>
+
+        <section id="planes" class="planes">
+            <div class="slider-header animate-on-scroll fade-right">
+                <div id="planes-tit">
+                    PLANES PARA
+                    <span class="rotating-word">
+                        <span id="rotatingWord" class="word-display emprendedores">EMPRENDEDORES</span>
+                    </span>
+                </div>
+                <p>Elige el plan que mejor se adapte a tu negocio</p>
+            </div>
+            <div class="services-grid animate-on-scroll fade-left">
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Básico</h3>
+                    <p>Landing page profesional ideal para emprendedores</p>
+                    <div class="service-price">S/ 199 <span>único</span></div>
+                    <ul class="service-features">
+                        <li>✓ Diseño personalizado</li>
+                        <li>✓ Landing page completa</li>
+                        <li>✓ Contacto a redes sociales</li>
+                        <li>✓ Responsive design</li>
+                    </ul>
+                    <a href="https://wa.me/51999999999" class="btn-service">Lo quiero</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Profesional</h3>
+                    <p>Web completa para negocios pequeños y medianos</p>
+                    <div class="service-price">S/ 499 <span>único</span></div>
+                    <ul class="service-features">
+                        <li>✓ Todo del plan Básico</li>
+                        <li>✓ Hasta 5 secciones</li>
+                        <li>✓ Blog integrado</li>
+                        <li>✓ Galería de imágenes</li>
+                    </ul>
+                    <a href="https://wa.me/51999999999" class="btn-service">Lo quiero</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛍️</div>
+                    <h3>Empresario</h3>
+                    <p>Web completa con tienda online para vender tus productos</p>
+                    <div class="service-price">S/ 999 <span>único</span></div>
+                    <ul class="service-features">
+                        <li>✓ Todo del plan Profesional</li>
+                        <li>✓ Catálogo de productos</li>
+                        <li>✓ Carrito de compras</li>
+                        <li>✓ Pasarela de pagos</li>
+                    </ul>
+                    <a href="https://wa.me/51999999999" class="btn-service">Lo quiero</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact animate-on-scroll pop-reveal">
+            <div class="contact-content">
+                <h2>¿Listo para digitalizar tu emprendimiento?</h2>
+                <p>Contáctanos hoy mismo y recibe una asesoría gratuita</p>
+                <a href="https://wa.me/51999999999" class="whatsapp-btn">📱 Escríbenos al WhatsApp</a>
+            </div>
+        </section>
+
+        <section id="testimonios" class="testimonios-section">
+            <div class="testimonios-header animate-on-scroll fade-right">
+                <h2>⭐ Lo que dicen nuestros clientes</h2>
+                <p>Historias de éxito y recomendaciones de quienes confiaron en nosotros</p>
+            </div>
+            <div class="testimonios-grid animate-on-scroll fade-up" id="testimoniosGrid"></div>
+        </section>
+
+        <footer class="footer animate-on-scroll fade-up">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4><i class="fas fa-share-alt" style="margin-right: 8px;"></i> Sígueme</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/51999999999" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem;">Conéctate conmigo en redes sociales para estar al día de nuevos servicios y promociones.</p>
+                </div>
+                <div class="footer-col">
+                    <h4><i class="fas fa-info-circle" style="margin-right: 8px;"></i> Información</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Política de Privacidad</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4><i class="fas fa-envelope" style="margin-right: 8px;"></i> Contacto</h4>
+                    <div class="footer-contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/51999999999" target="_blank">+51 999 999 999</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@iuxon.com">info@iuxon.com</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lima, Perú</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lun - Vie: 9am - 7pm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 IUXON.COM - Soluciones tecnológicas para emprendedores en Lima, Perú</p>
+            </div>
+        </footer>
+    <script src="script.js"></script>
+    </div>
+  </body>
+</html>
