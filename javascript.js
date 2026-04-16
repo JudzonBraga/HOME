@@ -171,7 +171,7 @@
                 { img: "https://i.pinimg.com/236x/98/b6/60/98b660b8bc7f44c0aa4b1788610d0b86.jpg", name: "DentySalud", category: "Odontología", url: "https://judzonbraga.github.io/ODONTOLOGIA/" },
                 { img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format", name: "Educación", category: "Educación", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20EDUCACIÓN" },
                 { img: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=600&auto=format", name: "Tecnología", category: "Tecnología", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20TECNOLOGÍA" },
-                { img: "https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?w=600&auto=format", name: "Belleza", category: "Belleza", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20BELLEZA" }
+                { img: "https://images.pexels.com/photos/8700719/pexels-photo-8700719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", name: "Vali Café", category: "Cafetería", url: "https://judzonbraga.github.io/CAFETERIA/" }
             ];
             const track = document.getElementById('carouselTrack');
             function createProductCard(product) {
