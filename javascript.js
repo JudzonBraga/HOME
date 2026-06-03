@@ -170,7 +170,7 @@
                 { img: "https://lh3.googleusercontent.com/pw/AP1GczOsTgdgpX_IuXQ7aLO3tO9ds3IHicx-u9bqTLPFpR3YW8SerxGOpX_ls-Lt102KwV7Nv1_UJlZ-2Jf8vnPyH8bsiFujvbciKDntv1EU7Zy7mr6LUa9P-hM8xw1Q_B9okNtkx0w1KnXVRhTQ0S2rFdAU=w908-h908-s-no-gm?authuser=0", name: "Dulce Fantasia Bakery", category: "Pastelería Artística", url: "https://dulcefantasiaoficial.github.io/home/" },
                 { img: "https://i.pinimg.com/236x/98/b6/60/98b660b8bc7f44c0aa4b1788610d0b86.jpg", name: "DentySalud", category: "Odontología", url: "https://judzonbraga.github.io/ODONTOLOGIA/" },
                 { img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&auto=format", name: "Educación", category: "Educación", url: "https://wa.me/51999999999?text=Hola,%20quiero%20más%20información%20sobre%20páginas%20web%20para%20EDUCACIÓN" },
-                { img: "https://static.vecteezy.com/system/resources/previews/004/439/485/non_2x/store-cartoon-illustration-free-vector.jpg", name: "Doña Cucha Martket", category: "Market/Store", url: "https://judzonbraga.github.io/BODEGA/" },
+                { img: "https://static.vecteezy.com/system/resources/previews/004/439/485/non_2x/store-cartoon-illustration-free-vector.jpg", name: "Doña Cucha Market", category: "Market/Store", url: "https://judzonbraga.github.io/BODEGA/" },
                 { img: "https://images.pexels.com/photos/8700719/pexels-photo-8700719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", name: "Vali Café", category: "Cafetería", url: "https://judzonbraga.github.io/VALI-CAFE/" }
             ];
             const track = document.getElementById('carouselTrack');
